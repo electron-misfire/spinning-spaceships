@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DA470581C99456800EF9814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA470571C99456800EF9814 /* AppDelegate.swift */; };
+		6DA4705A1C99456800EF9814 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6DA470591C99456800EF9814 /* GameScene.sks */; };
+		6DA4705C1C99456800EF9814 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA4705B1C99456800EF9814 /* GameScene.swift */; };
+		6DA4705E1C99456800EF9814 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA4705D1C99456800EF9814 /* GameViewController.swift */; };
+		6DA470611C99456900EF9814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA4705F1C99456900EF9814 /* Main.storyboard */; };
+		6DA470631C99456900EF9814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA470621C99456900EF9814 /* Assets.xcassets */; };
+		6DA470661C99456900EF9814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA470641C99456900EF9814 /* LaunchScreen.storyboard */; };
+		6DA470711C99456900EF9814 /* Canon_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA470701C99456900EF9814 /* Canon_GameTests.swift */; };
+		6DA4707C1C99456900EF9814 /* Canon_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA4707B1C99456900EF9814 /* Canon_GameUITests.swift */; };
+		6DA4708A1C9AB75E00EF9814 /* startMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6DA470891C9AB75D00EF9814 /* startMenu.sks */; };
+		6DA4708C1C9AB78900EF9814 /* startMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA4708B1C9AB78900EF9814 /* startMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DA4706D1C99456900EF9814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA4704C1C99456800EF9814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA470531C99456800EF9814;
+			remoteInfo = "Canon Game";
+		};
+		6DA470781C99456900EF9814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA4704C1C99456800EF9814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA470531C99456800EF9814;
+			remoteInfo = "Canon Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DA470541C99456800EF9814 /* Canon Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canon Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA470571C99456800EF9814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DA470591C99456800EF9814 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6DA4705B1C99456800EF9814 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6DA4705D1C99456800EF9814 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6DA470601C99456900EF9814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DA470621C99456900EF9814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DA470651C99456900EF9814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DA470671C99456900EF9814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA4706C1C99456900EF9814 /* Canon GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canon GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA470701C99456900EF9814 /* Canon_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canon_GameTests.swift; sourceTree = "<group>"; };
+		6DA470721C99456900EF9814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA470771C99456900EF9814 /* Canon GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canon GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA4707B1C99456900EF9814 /* Canon_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canon_GameUITests.swift; sourceTree = "<group>"; };
+		6DA4707D1C99456900EF9814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA470891C9AB75D00EF9814 /* startMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = startMenu.sks; sourceTree = "<group>"; };
+		6DA4708B1C9AB78900EF9814 /* startMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = startMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DA470511C99456800EF9814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA470691C99456900EF9814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA470741C99456900EF9814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DA4704B1C99456800EF9814 = {
+			isa = PBXGroup;
+			children = (
+				6DA470561C99456800EF9814 /* Canon Game */,
+				6DA4706F1C99456900EF9814 /* Canon GameTests */,
+				6DA4707A1C99456900EF9814 /* Canon GameUITests */,
+				6DA470551C99456800EF9814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DA470551C99456800EF9814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DA470541C99456800EF9814 /* Canon Game.app */,
+				6DA4706C1C99456900EF9814 /* Canon GameTests.xctest */,
+				6DA470771C99456900EF9814 /* Canon GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DA470561C99456800EF9814 /* Canon Game */ = {
+			isa = PBXGroup;
+			children = (
+				6DA470571C99456800EF9814 /* AppDelegate.swift */,
+				6DA470591C99456800EF9814 /* GameScene.sks */,
+				6DA4705B1C99456800EF9814 /* GameScene.swift */,
+				6DA4705D1C99456800EF9814 /* GameViewController.swift */,
+				6DA470891C9AB75D00EF9814 /* startMenu.sks */,
+				6DA4708B1C9AB78900EF9814 /* startMenu.swift */,
+				6DA4705F1C99456900EF9814 /* Main.storyboard */,
+				6DA470621C99456900EF9814 /* Assets.xcassets */,
+				6DA470641C99456900EF9814 /* LaunchScreen.storyboard */,
+				6DA470671C99456900EF9814 /* Info.plist */,
+			);
+			path = "Canon Game";
+			sourceTree = "<group>";
+		};
+		6DA4706F1C99456900EF9814 /* Canon GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DA470701C99456900EF9814 /* Canon_GameTests.swift */,
+				6DA470721C99456900EF9814 /* Info.plist */,
+			);
+			path = "Canon GameTests";
+			sourceTree = "<group>";
+		};
+		6DA4707A1C99456900EF9814 /* Canon GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DA4707B1C99456900EF9814 /* Canon_GameUITests.swift */,
+				6DA4707D1C99456900EF9814 /* Info.plist */,
+			);
+			path = "Canon GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DA470531C99456800EF9814 /* Canon Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA470801C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon Game" */;
+			buildPhases = (
+				6DA470501C99456800EF9814 /* Sources */,
+				6DA470511C99456800EF9814 /* Frameworks */,
+				6DA470521C99456800EF9814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Canon Game";
+			productName = "Canon Game";
+			productReference = 6DA470541C99456800EF9814 /* Canon Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DA4706B1C99456900EF9814 /* Canon GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA470831C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon GameTests" */;
+			buildPhases = (
+				6DA470681C99456900EF9814 /* Sources */,
+				6DA470691C99456900EF9814 /* Frameworks */,
+				6DA4706A1C99456900EF9814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA4706E1C99456900EF9814 /* PBXTargetDependency */,
+			);
+			name = "Canon GameTests";
+			productName = "Canon GameTests";
+			productReference = 6DA4706C1C99456900EF9814 /* Canon GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DA470761C99456900EF9814 /* Canon GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA470861C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon GameUITests" */;
+			buildPhases = (
+				6DA470731C99456900EF9814 /* Sources */,
+				6DA470741C99456900EF9814 /* Frameworks */,
+				6DA470751C99456900EF9814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA470791C99456900EF9814 /* PBXTargetDependency */,
+			);
+			name = "Canon GameUITests";
+			productName = "Canon GameUITests";
+			productReference = 6DA470771C99456900EF9814 /* Canon GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DA4704C1C99456800EF9814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alexandra Haendel";
+				TargetAttributes = {
+					6DA470531C99456800EF9814 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HF34YS263S;
+					};
+					6DA4706B1C99456900EF9814 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6DA470531C99456800EF9814;
+					};
+					6DA470761C99456900EF9814 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6DA470531C99456800EF9814;
+					};
+				};
+			};
+			buildConfigurationList = 6DA4704F1C99456800EF9814 /* Build configuration list for PBXProject "Canon Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DA4704B1C99456800EF9814;
+			productRefGroup = 6DA470551C99456800EF9814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DA470531C99456800EF9814 /* Canon Game */,
+				6DA4706B1C99456900EF9814 /* Canon GameTests */,
+				6DA470761C99456900EF9814 /* Canon GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DA470521C99456800EF9814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA4705A1C99456800EF9814 /* GameScene.sks in Resources */,
+				6DA470661C99456900EF9814 /* LaunchScreen.storyboard in Resources */,
+				6DA4708A1C9AB75E00EF9814 /* startMenu.sks in Resources */,
+				6DA470631C99456900EF9814 /* Assets.xcassets in Resources */,
+				6DA470611C99456900EF9814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA4706A1C99456900EF9814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA470751C99456900EF9814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DA470501C99456800EF9814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA4705C1C99456800EF9814 /* GameScene.swift in Sources */,
+				6DA4708C1C9AB78900EF9814 /* startMenu.swift in Sources */,
+				6DA4705E1C99456800EF9814 /* GameViewController.swift in Sources */,
+				6DA470581C99456800EF9814 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA470681C99456900EF9814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA470711C99456900EF9814 /* Canon_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA470731C99456900EF9814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA4707C1C99456900EF9814 /* Canon_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DA4706E1C99456900EF9814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA470531C99456800EF9814 /* Canon Game */;
+			targetProxy = 6DA4706D1C99456900EF9814 /* PBXContainerItemProxy */;
+		};
+		6DA470791C99456900EF9814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA470531C99456800EF9814 /* Canon Game */;
+			targetProxy = 6DA470781C99456900EF9814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DA4705F1C99456900EF9814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA470601C99456900EF9814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DA470641C99456900EF9814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA470651C99456900EF9814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DA4707E1C99456900EF9814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DA4707F1C99456900EF9814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DA470811C99456900EF9814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Canon Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6DA470821C99456900EF9814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Canon Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		6DA470841C99456900EF9814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Canon GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canon Game.app/Canon Game";
+			};
+			name = Debug;
+		};
+		6DA470851C99456900EF9814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Canon GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canon Game.app/Canon Game";
+			};
+			name = Release;
+		};
+		6DA470871C99456900EF9814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Canon GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Canon Game";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6DA470881C99456900EF9814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Canon GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Canon Game";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DA4704F1C99456800EF9814 /* Build configuration list for PBXProject "Canon Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA4707E1C99456900EF9814 /* Debug */,
+				6DA4707F1C99456900EF9814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA470801C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA470811C99456900EF9814 /* Debug */,
+				6DA470821C99456900EF9814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DA470831C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA470841C99456900EF9814 /* Debug */,
+				6DA470851C99456900EF9814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DA470861C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA470871C99456900EF9814 /* Debug */,
+				6DA470881C99456900EF9814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DA4704C1C99456800EF9814 /* Project object */;
+}
