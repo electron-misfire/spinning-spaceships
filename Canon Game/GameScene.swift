@@ -12,6 +12,7 @@ import AVFoundation
 class GameScene: SKScene {
     
     var myLabel : SKLabelNode!
+    var shipType:String = ""
     //let fadeTransit = SKTransition.fadeWithColor(duration: 2)
     var sprite:SKSpriteNode!
     let alert = UIAlertController(title: "Alert", message: "Message", preferredStyle: UIAlertControllerStyle.Alert)
@@ -33,7 +34,7 @@ class GameScene: SKScene {
         for touch in touches {
             let location = touch.locationInNode(self)
             
-            sprite = SKSpriteNode(imageNamed:"Spaceship")
+            sprite = SKSpriteNode(imageNamed:shipType)
             
             sprite.xScale = 0.3
             sprite.yScale = 0.3

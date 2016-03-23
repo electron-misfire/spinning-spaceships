@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6DA470541C99456800EF9814 /* Canon Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canon Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA470541C99456800EF9814 /* Space Spinner.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Spinner.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA470571C99456800EF9814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DA470591C99456800EF9814 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		6DA4705B1C99456800EF9814 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		6DA470621C99456900EF9814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DA470651C99456900EF9814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DA470671C99456900EF9814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DA4706C1C99456900EF9814 /* Canon GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canon GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA4706C1C99456900EF9814 /* Space Spinner.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space Spinner.temp_caseinsensitive_rename.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA470701C99456900EF9814 /* Canon_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canon_GameTests.swift; sourceTree = "<group>"; };
 		6DA470721C99456900EF9814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DA470771C99456900EF9814 /* Canon GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canon GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA470771C99456900EF9814 /* Space Spinner.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space Spinner.temp_caseinsensitive_rename.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA4707B1C99456900EF9814 /* Canon_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canon_GameUITests.swift; sourceTree = "<group>"; };
 		6DA4707D1C99456900EF9814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DA470891C9AB75D00EF9814 /* startMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = startMenu.sks; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		6DA4704B1C99456800EF9814 = {
 			isa = PBXGroup;
 			children = (
-				6DA470561C99456800EF9814 /* Canon Game */,
+				6DA470561C99456800EF9814 /* Space Spinner */,
 				6DA4706F1C99456900EF9814 /* Canon GameTests */,
 				6DA4707A1C99456900EF9814 /* Canon GameUITests */,
 				6DA470551C99456800EF9814 /* Products */,
@@ -95,14 +95,14 @@
 		6DA470551C99456800EF9814 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DA470541C99456800EF9814 /* Canon Game.app */,
-				6DA4706C1C99456900EF9814 /* Canon GameTests.xctest */,
-				6DA470771C99456900EF9814 /* Canon GameUITests.xctest */,
+				6DA470541C99456800EF9814 /* Space Spinner.temp_caseinsensitive_rename.app */,
+				6DA4706C1C99456900EF9814 /* Space Spinner.temp_caseinsensitive_rename.xctest */,
+				6DA470771C99456900EF9814 /* Space Spinner.temp_caseinsensitive_rename.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6DA470561C99456800EF9814 /* Canon Game */ = {
+		6DA470561C99456800EF9814 /* Space Spinner */ = {
 			isa = PBXGroup;
 			children = (
 				6DA470571C99456800EF9814 /* AppDelegate.swift */,
@@ -116,6 +116,7 @@
 				6DA470641C99456900EF9814 /* LaunchScreen.storyboard */,
 				6DA470671C99456900EF9814 /* Info.plist */,
 			);
+			name = "Space Spinner";
 			path = "Canon Game";
 			sourceTree = "<group>";
 		};
@@ -140,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DA470531C99456800EF9814 /* Canon Game */ = {
+		6DA470531C99456800EF9814 /* Space Spinner.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DA470801C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon Game" */;
+			buildConfigurationList = 6DA470801C99456900EF9814 /* Build configuration list for PBXNativeTarget "Space Spinner.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				6DA470501C99456800EF9814 /* Sources */,
 				6DA470511C99456800EF9814 /* Frameworks */,
@@ -152,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = "Canon Game";
+			name = "Space Spinner.temp_caseinsensitive_rename";
 			productName = "Canon Game";
-			productReference = 6DA470541C99456800EF9814 /* Canon Game.app */;
+			productReference = 6DA470541C99456800EF9814 /* Space Spinner.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6DA4706B1C99456900EF9814 /* Canon GameTests */ = {
+		6DA4706B1C99456900EF9814 /* Space Spinner.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DA470831C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon GameTests" */;
+			buildConfigurationList = 6DA470831C99456900EF9814 /* Build configuration list for PBXNativeTarget "Space Spinner.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
 				6DA470681C99456900EF9814 /* Sources */,
 				6DA470691C99456900EF9814 /* Frameworks */,
@@ -170,14 +171,14 @@
 			dependencies = (
 				6DA4706E1C99456900EF9814 /* PBXTargetDependency */,
 			);
-			name = "Canon GameTests";
+			name = "Space Spinner.temp_caseinsensitive_renameTests";
 			productName = "Canon GameTests";
-			productReference = 6DA4706C1C99456900EF9814 /* Canon GameTests.xctest */;
+			productReference = 6DA4706C1C99456900EF9814 /* Space Spinner.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6DA470761C99456900EF9814 /* Canon GameUITests */ = {
+		6DA470761C99456900EF9814 /* Space Spinner.temp_caseinsensitive_renameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DA470861C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon GameUITests" */;
+			buildConfigurationList = 6DA470861C99456900EF9814 /* Build configuration list for PBXNativeTarget "Space Spinner.temp_caseinsensitive_renameUITests" */;
 			buildPhases = (
 				6DA470731C99456900EF9814 /* Sources */,
 				6DA470741C99456900EF9814 /* Frameworks */,
@@ -188,9 +189,9 @@
 			dependencies = (
 				6DA470791C99456900EF9814 /* PBXTargetDependency */,
 			);
-			name = "Canon GameUITests";
+			name = "Space Spinner.temp_caseinsensitive_renameUITests";
 			productName = "Canon GameUITests";
-			productReference = 6DA470771C99456900EF9814 /* Canon GameUITests.xctest */;
+			productReference = 6DA470771C99456900EF9814 /* Space Spinner.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +202,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Alexandra Haendel";
+				ORGANIZATIONNAME = "Emile Akbarzadeh";
 				TargetAttributes = {
 					6DA470531C99456800EF9814 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -217,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6DA4704F1C99456800EF9814 /* Build configuration list for PBXProject "Canon Game" */;
+			buildConfigurationList = 6DA4704F1C99456800EF9814 /* Build configuration list for PBXProject "Space Spinner" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DA470531C99456800EF9814 /* Canon Game */,
-				6DA4706B1C99456900EF9814 /* Canon GameTests */,
-				6DA470761C99456900EF9814 /* Canon GameUITests */,
+				6DA470531C99456800EF9814 /* Space Spinner.temp_caseinsensitive_rename */,
+				6DA4706B1C99456900EF9814 /* Space Spinner.temp_caseinsensitive_renameTests */,
+				6DA470761C99456900EF9814 /* Space Spinner.temp_caseinsensitive_renameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		6DA4706E1C99456900EF9814 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DA470531C99456800EF9814 /* Canon Game */;
+			target = 6DA470531C99456800EF9814 /* Space Spinner.temp_caseinsensitive_rename */;
 			targetProxy = 6DA4706D1C99456900EF9814 /* PBXContainerItemProxy */;
 		};
 		6DA470791C99456900EF9814 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DA470531C99456800EF9814 /* Canon Game */;
+			target = 6DA470531C99456800EF9814 /* Space Spinner.temp_caseinsensitive_rename */;
 			targetProxy = 6DA470781C99456900EF9814 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,7 +420,7 @@
 				INFOPLIST_FILE = "Canon Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-Game";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Space Spinner.temp_caseinsensitive_rename";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -433,7 +434,7 @@
 				INFOPLIST_FILE = "Canon Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-Game";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Space Spinner.temp_caseinsensitive_rename";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -446,8 +447,8 @@
 				INFOPLIST_FILE = "Canon GameTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-GameTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canon Game.app/Canon Game";
+				PRODUCT_NAME = "Space Spinner.temp_caseinsensitive_rename";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Spinner.temp_caseinsensitive_rename.app/Space Spinner.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -458,8 +459,8 @@
 				INFOPLIST_FILE = "Canon GameTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-GameTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canon Game.app/Canon Game";
+				PRODUCT_NAME = "Space Spinner.temp_caseinsensitive_rename";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Spinner.temp_caseinsensitive_rename.app/Space Spinner.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -470,7 +471,7 @@
 				INFOPLIST_FILE = "Canon GameUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-GameUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Space Spinner.temp_caseinsensitive_rename";
 				TEST_TARGET_NAME = "Canon Game";
 				USES_XCTRUNNER = YES;
 			};
@@ -482,7 +483,7 @@
 				INFOPLIST_FILE = "Canon GameUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Canon-GameUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Space Spinner.temp_caseinsensitive_rename";
 				TEST_TARGET_NAME = "Canon Game";
 				USES_XCTRUNNER = YES;
 			};
@@ -491,7 +492,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DA4704F1C99456800EF9814 /* Build configuration list for PBXProject "Canon Game" */ = {
+		6DA4704F1C99456800EF9814 /* Build configuration list for PBXProject "Space Spinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DA4707E1C99456900EF9814 /* Debug */,
@@ -500,29 +501,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DA470801C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon Game" */ = {
+		6DA470801C99456900EF9814 /* Build configuration list for PBXNativeTarget "Space Spinner.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DA470811C99456900EF9814 /* Debug */,
 				6DA470821C99456900EF9814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6DA470831C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon GameTests" */ = {
+		6DA470831C99456900EF9814 /* Build configuration list for PBXNativeTarget "Space Spinner.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DA470841C99456900EF9814 /* Debug */,
 				6DA470851C99456900EF9814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6DA470861C99456900EF9814 /* Build configuration list for PBXNativeTarget "Canon GameUITests" */ = {
+		6DA470861C99456900EF9814 /* Build configuration list for PBXNativeTarget "Space Spinner.temp_caseinsensitive_renameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DA470871C99456900EF9814 /* Debug */,
 				6DA470881C99456900EF9814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
